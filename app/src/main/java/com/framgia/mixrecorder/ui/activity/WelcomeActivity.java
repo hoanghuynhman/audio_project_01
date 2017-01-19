@@ -33,14 +33,10 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
                 startActivity(new Intent(this, MainActivity.class));
                 break;
             case R.id.linear_mix:
-                mixAudio();
+                startActivity(MixActivity.getMixIntent(this));
                 break;
             default:
                 break;
         }
-    }
-
-    private void mixAudio() {
-        //todo mix audio function
     }
 }

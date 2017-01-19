@@ -28,4 +28,9 @@
     <dimen name="text_time_size">20sp</dimen>
     <dimen name="icon_toggle_margin">17dp</dimen>
     <dimen name="item_choice_margin">40dp</dimen>
+    <dimen name="ll_mix_buttons_width">50dp</dimen>
+    <dimen name="card_view_item_mix_height">100dp</dimen>
+    <dimen name="card_view_item_name_size">20sp</dimen>
+    <dimen name="edit_text_mix_width">40dp</dimen>
+    <dimen name="text_mix_padding_top">10dp</dimen>
 </resources>

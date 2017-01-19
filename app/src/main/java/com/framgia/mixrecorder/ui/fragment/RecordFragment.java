@@ -223,11 +223,11 @@ public class RecordFragment extends Fragment
         }
     }
 
-    public interface OnRecordFragmentListener {
-        void onRecordFragmentChange();
-    }
-
     public void crop() {
         //todo crop function
+    }
+
+    public interface OnRecordFragmentListener {
+        void onRecordFragmentChange();
     }
 }

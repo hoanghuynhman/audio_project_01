@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/card_item_mix"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/card_view_item_mix_height">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button_close_mix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/action_close"/>
+
+        <TextView
+            android:id="@+id/text_audio_name_mix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/card_view_item_name_size"/>
+
+        <TextView
+            android:id="@+id/text_offset_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_audio_name_mix"
+            android:paddingTop="@dimen/text_mix_padding_top"
+            android:text="@string/text_offset"/>
+
+        <EditText
+            android:id="@+id/text_offset"
+            android:layout_width="@dimen/edit_text_mix_width"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/text_offset_label"
+            android:layout_toRightOf="@id/text_offset_label"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/text_volume_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_offset_label"
+            android:paddingTop="@dimen/text_mix_padding_top"
+            android:text="@string/text_volume"/>
+
+        <EditText
+            android:id="@+id/text_volume"
+            android:layout_width="@dimen/edit_text_mix_width"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/text_volume_label"
+            android:layout_toRightOf="@id/text_volume_label"
+            android:inputType="number|numberDecimal"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

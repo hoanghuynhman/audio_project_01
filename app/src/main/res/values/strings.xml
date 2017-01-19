@@ -21,4 +21,9 @@
     <string name="title_share_audio">Share</string>
     <string name="msg_file_saved">File has been saved</string>
     <string name="title_mix_audio">Mix Audio</string>
+    <string name="action_close">Close</string>
+    <string name="action_add">Add</string>
+    <string name="action_mix">Mix</string>
+    <string name="text_offset">Offset:</string>
+    <string name="text_volume">Volume:</string>
 </resources>
